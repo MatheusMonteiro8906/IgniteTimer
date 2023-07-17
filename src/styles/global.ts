@@ -13,7 +13,9 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background: ${(props) => props.theme['gray-900']};
+        background-image: url(https://raw.githubusercontent.com/MatheusMonteiro8906/portfolio/master/assets/images/bg/backgroundPortfolioDark.png);
+        background-repeat: repeat;
+   //     background: ${(props) => props.theme['gray-900']};
         color: ${(props) => props.theme['gray-300']};
         -webkit-font-smoothing: antialiased;
     }

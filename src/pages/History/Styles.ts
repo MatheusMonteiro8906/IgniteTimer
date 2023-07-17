@@ -60,3 +60,9 @@ export const HistoryList = styled.div`
         }
     }
 `;
+
+export const Status = styled.span`
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+`;
